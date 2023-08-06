@@ -1,0 +1,66 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.root{
+	-fx-background-image: url(/icon/bac.jpg);
+}
+.button{
+    -fx-border-color: rgb(5.0,82.0,3.0);
+    -fx-background-radius: 0.0;
+    -fx-background-color: rgb(87.0,163.0,3.0);
+    -fx-border-style: solid ;
+    -fx-font-family:"Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 1.0em; /* 12 */
+    -fx-text-fill: #828282;
+}
+#panR{
+	-fx-border-color: rgb(0,0,0);
+}
+
+/*.button:focused {
+    -fx-border-color: transparent, black;
+    -fx-border-width: 1.0, 1.0;
+    -fx-border-style: solid, segments(1.0, 2.0);
+    -fx-border-radius: 0.0, 0.0;
+    -fx-border-insets: 1.0 1.0 1.0 1.0, 0.0;
+}
+.button:pressed {
+    -fx-background-color: rgb(0.0,255.0,255.0);
+    -fx-text-fill: white;
+}
+ */
+ #btnNguoi:pressed {
+    -fx-background-color: rgb(0.0,255.0,255.0);
+    -fx-text-fill: white;
+}
+#btnNguoi:hover {
+     -fx-background-color: #383838;
+    -fx-scale-y: 1.1;
+}
+#btnNguoi{
+	 -fx-background-radius: 10.0;
+	 -fx-min-height: 30.0px;
+	 -fx-text-fill: rgb(0.0,0.0,0.0);
+	 -fx-font-style: oblique ;
+	 -fx-font-weight: bold;
+	 -fx-font-family: "Times New Roman", Times, Arial, sans-serif;
+	 -fx-wrap-text: true ;
+	 -fx-font-size: 15.0px;
+	  -fx-background-color: linear-gradient( from 0.0% 0.0% to 100.0% 100.0%, rgb(128.0,179.0,128.0) 0.0, rgb(204.0,204.0,51.0) 100.0);
+	 -fx-border-color: transparent ;
+}
+#nameplayer{
+	-fx-label-padding: 30px 10px 0px 70px;
+	-fx-font-weight: bold;
+	-fx-font-size: 15.0px;
+	-fx-text-overrun: leading-ellipsis;
+	-fx-border-color: transparent ;
+	
+}
+#timeplayer{
+	-fx-label-padding: 0px 10px 10px 100px;
+	-fx-font-weight: bold;
+	-fx-font-size: 30px;
+	-fx-text-overrun: leading-ellipsis;
+	-fx-border-color: transparent ;
+	-fx-text-fill: red;
+}
